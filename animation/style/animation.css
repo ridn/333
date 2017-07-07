@@ -1,0 +1,174 @@
+.gwd-p-pcgd {
+  position: relative;
+  top: 14px;
+  width: 214px;
+  transform-origin: 398.5px 54px 0px;
+  font-family: Roboto;
+  font-size: 72px;
+}
+.gwd-p-sxkg {
+  left: 195px;
+  top: -50px;
+  transform-style: preserve-3d;
+  transform: translate3d(0px, 0px, 0px);
+  color: rgba(255, 255, 255, 0);
+}
+.gwd-p-1xrl {}
+.gwd-p-1uig {
+  left: 245px;
+  top: -50px;
+  transform-style: preserve-3d;
+  transform: translate3d(0px, 0px, 0px);
+  color: rgba(255, 255, 255, 0);
+}
+.gwd-p-28y2 {
+  left: 54px;
+  top: -50px;
+  color: rgba(255, 255, 255, 0);
+  transform-style: preserve-3d;
+  transform: translate3d(0px, 0px, 0px);
+}
+@keyframes gwd-gen-z2qzgwdanimation_gwd-keyframes {
+  0% {
+  color: rgba(255, 255, 255, 0);
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+  color: rgba(255, 255, 255, 255);
+    transform: translate3d(1px, 64px, 0px);
+    animation-timing-function: linear;
+  }
+}
+.htmlNoPages .gwd-gen-z2qzgwdanimation {
+  animation: gwd-gen-z2qzgwdanimation_gwd-keyframes 0.5s linear 0s 1 normal forwards;
+}
+@keyframes gwd-gen-1g0ygwdanimation_gwd-keyframes {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+  color: rgba(255, 255, 255, 0);
+    animation-timing-function: ease;
+  }
+  100% {
+    transform: translate3d(1px, 63px, 0px);
+  color: rgba(255, 255, 255, 255);
+    animation-timing-function: linear;
+  }
+}
+.htmlNoPages .gwd-gen-1g0ygwdanimation {
+  animation: gwd-gen-1g0ygwdanimation_gwd-keyframes 0.5s linear 0.081s 1 normal forwards;
+}
+@keyframes gwd-gen-16j9gwdanimation_gwd-keyframes {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+  color: rgba(255, 255, 255, 0);
+    animation-timing-function: ease;
+  }
+  100% {
+    transform: translate3d(2px, 63px, 0px);
+  color: rgba(255, 255, 255, 255);
+    animation-timing-function: linear;
+  }
+}
+.htmlNoPages .gwd-gen-16j9gwdanimation {
+  animation: gwd-gen-16j9gwdanimation_gwd-keyframes 0.5s linear 0.2s 1 normal forwards;
+}
+.gwd-p-t70a {
+  position:relative;
+  left: 55px;
+  top: 168px;
+  color: rgba(255, 255, 255, 0);
+  transform-style: preserve-3d;
+  transform: translate3d(0px, 0px, 0px);
+}
+@keyframes gwd-gen-73epgwdanimation_gwd-keyframes {
+  0% {
+  color: rgba(255, 255, 255, 0);
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: ease-in-out;
+    opacity: 0.0;
+  }
+  100% {
+  color: rgba(255, 255, 255, 255);
+    transform: translate3d(0px, -67px, 0px);
+    animation-timing-function: linear;
+    border-left: 2px solid #fff;
+    opacity: 1.0;
+
+  }
+}
+@keyframes images {
+  0% {
+  color: rgba(255, 255, 255, 0);
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: ease-in-out;
+    opacity: 0.0;
+  }
+  100% {
+  color: rgba(255, 255, 255, 255);
+    transform: translate3d(0px, -67px, 0px);
+    animation-timing-function: linear;
+    opacity: 1.0;
+
+  }
+}
+.htmlNoPages .gwd-gen-73epgwdanimation {
+  animation: gwd-gen-73epgwdanimation_gwd-keyframes 0.288s linear 0.612s 1 normal forwards;
+}
+.images {
+  animation: images 0.288s linear 0.612s 1 normal forwards;
+  margin: 0 auto;
+  width: 70%;
+}
+.mainContent p#animated {
+    color:rgba(255, 255, 255, 0);
+    border-left: 2px solid rgba(255, 255, 255, 0);
+    padding:20px;
+    margin-left: 15px;
+    margin-bottom: 100px;
+}
+.mainContent h1 {
+    color:rgba(255, 255, 255, 0);
+    font-size: 45px;
+    font-weight:bold;
+    float:left;
+    margin-bottom: -111px;
+}
+.mainContent img {
+  display: inline-block;
+  margin: 0 auto;
+  max-height: 400px;
+  max-width: 200px;
+
+
+
+}
+@keyframes blink {
+    0% {
+        border-right: 1px #FF8244 solid;
+    }
+    50% {
+        border-right: 1px  rgba(255, 130, 66, 0) solid;
+    }
+    100% {
+        border-right: 1px #FF8244 solid;
+    }
+}
+p.blinker{
+    width: 245px;
+    position: relative;
+    border-right: 1px rgba(255, 130, 66, 0) solid;
+    border-left: 0px;
+    padding: 5px 0px 5px 5px;
+    margin: 0 auto;
+    top:67px;
+    color:transparent;
+    animation: blink 1s linear 1050ms infinite forwards, images 0.288s linear 0.612s 1 normal forwards;
+
+}
+.lil-gif {
+    max-width: 200px;
+    opacity: 0.0;
+    animation: images 0.288s linear 0.612s 1 normal forwards;
+    padding:25px;
+}
